@@ -4,7 +4,6 @@
 # IDE
 .vscode
 .idea
-.cursor
 
 # Dist
 node_modules
