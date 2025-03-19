@@ -42,12 +42,12 @@ jobs:
         run: pnpm install
 
       - name: Build project
-        run: pnpm build
+        run: pnpm docs:build
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: ./doc_build
+          path: ./docs/.vitepress/dist
           name: docs-artifact-${{ github.run_id }}
 
   deploy:
