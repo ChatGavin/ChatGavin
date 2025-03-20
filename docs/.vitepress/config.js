@@ -1,6 +1,6 @@
 export default {
-  title: "Chat with Gavin",
-  description: "基于 Claude 的智能助手",
+  title: "ChatGavin",
+  description: "Chat withGavin",
   head: [
     ["link", { rel: "icon", href: "img/logo/vitepress.svg" }],
     [
@@ -35,8 +35,8 @@ export default {
       },
     ],
     footer: {
-      message: "Released under the MIT License.",
-      copyright: "Copyright © 2024-present Gavin Lin",
+      message: "Released under the Apache-2.0 License.",
+      copyright: "Copyright © 2025-present Gavin Lin",
     },
     outlineTitle: "目录",
     sidebar: {
