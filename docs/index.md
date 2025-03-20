@@ -1,5 +1,4 @@
 ---
-# https://vitepress.dev/reference/default-theme-home-page
 layout: home
 
 hero:
@@ -18,10 +17,10 @@ hero:
       link: /api-examples
 
 features:
-  - title: AI 时代还有必要记笔记吗?
-    details: 不仅有必要甚至更重要, 但不应该是已知信息的重复记录, 而是要记录下自己的偏见与无知, 记录下自己费心思和把手弄脏的实践过程, 记录那些无法被大模型预测的独属于自己的心情与感悟, 只有这样才知道什么样的问题对自己真正重要
-  - title: Feature B
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature C
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
+  - title: 提炼而非复制
+    details: 笔记不是知识的复制, 而是意识的萃取, 在 AI 时代, 思考路径和认知过程才是无法被替代的价值, 它不求完整而求个性化, 有温度有过程
+  - title: 记录偏见与无知
+    details: 认清自己的偏见，是成长的起点, 我为什么会这样想? 我漏掉了什么? 这些比我查到了什么更重要, AI 给你答案, 笔记给你反问和反思
+  - title: 把手弄脏的过程
+    details: 实践是 AI 无法替你做的事, 你犯过的错、走过的弯路、踩过的坑, 正是你和他人和 AI 之间最大的区分, 记录这些过程, 就是在积累"经验的厚度"
 ---

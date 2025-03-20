@@ -34,10 +34,6 @@ export default {
         link: "https://github.com/gavin-gong/ChatGavin",
       },
     ],
-    footer: {
-      message: "Released under the Apache-2.0 License.",
-      copyright: "Copyright © 2025-present Gavin Lin",
-    },
     outlineTitle: "目录",
     sidebar: {
       "/guide/": [
@@ -48,8 +44,8 @@ export default {
       ],
     },
     algolia: {
-      appId: "BY3PPJ4B38",
-      apiKey: "58414decdc73fcf81475dfab24620d22",
+      appId: "",
+      apiKey: "",
       indexName: "chatgavin",
     },
   },
