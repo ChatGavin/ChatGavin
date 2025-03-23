@@ -7,7 +7,7 @@ export default {
       "link",
       {
         rel: "apple-touch-icon",
-        href: "img/logo/vitepress.svg",
+        href: "/img/logo/vitepress.svg",
         sizes: "180x180",
       },
     ],
