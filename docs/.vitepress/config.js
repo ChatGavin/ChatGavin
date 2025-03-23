@@ -27,7 +27,10 @@ export default {
       prev: "上一页",
       next: "下一页",
     },
-    nav: [{ text: "首页", link: "/" }],
+    nav: [
+      { text: "首页", link: "/" },
+      { text: "AI 技术", link: "/ai-tech/mcp" },
+    ],
     socialLinks: [
       {
         icon: "github",
@@ -54,6 +57,12 @@ export default {
         {
           text: "Vitepress",
           link: "/web/vitepress",
+        },
+      ],
+      "/ai-tech/": [
+        {
+          text: "MCP",
+          link: "/ai-tech/mcp",
         },
       ],
     },
