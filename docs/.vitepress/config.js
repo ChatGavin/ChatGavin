@@ -49,8 +49,8 @@ export default {
       ],
     },
     algolia: {
-      appId: "",
-      apiKey: "",
+      appId: "W4Q74322DY",
+      apiKey: "eedf20ae715174b06c4b63657804d053",
       indexName: "chatgavin",
     },
   },
