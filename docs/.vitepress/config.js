@@ -2,7 +2,7 @@ export default {
   title: "ChatGavin",
   description: "Chat withGavin",
   head: [
-    ["link", { rel: "icon", href: "img/logo/vitepress.svg" }],
+    ["link", { rel: "icon", href: "/img/logo/vitepress.svg" }],
     [
       "link",
       {
