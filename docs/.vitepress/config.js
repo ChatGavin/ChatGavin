@@ -41,10 +41,10 @@ export default {
     },
     outlineTitle: "目录",
     sidebar: {
-      "/guide/": [
+      "/web/": [
         {
-          text: "指南",
-          link: "/guide/",
+          text: "网站应用",
+          link: "/web/",
         },
       ],
     },
