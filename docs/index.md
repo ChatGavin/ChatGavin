@@ -11,7 +11,7 @@ hero:
   actions:
     - theme: brand
       text: 快速开始
-      link: /markdown-examples
+      link: /ai-tech/
     - theme: alt
       text: Github
       link: https://github.com/ChatGavin
