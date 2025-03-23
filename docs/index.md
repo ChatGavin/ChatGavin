@@ -10,11 +10,11 @@ hero:
     alt: vitepress
   actions:
     - theme: brand
-      text: Markdown Examples
+      text: 快速开始
       link: /markdown-examples
     - theme: alt
-      text: API Examples
-      link: /api-examples
+      text: Github
+      link: https://github.com/ChatGavin
 
 features:
   - title: 提炼而非复制

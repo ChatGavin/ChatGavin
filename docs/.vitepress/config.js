@@ -8,7 +8,6 @@ export default {
       {
         rel: "apple-touch-icon",
         href: "img/logo/vitepress.svg",
-        sizes: "180x180",
       },
     ],
   ],
@@ -20,20 +19,18 @@ export default {
       prev: "上一页",
       next: "下一页",
     },
-    nav: [
-      { text: "首页", link: "/" },
-      { text: "指南", link: "guide/" },
-      {
-        text: "更新日志",
-        link: "https://github.com/gavin-gong/ChatGavin/releases",
-      },
-    ],
+    nav: [{ text: "首页", link: "/" }],
     socialLinks: [
       {
         icon: "github",
-        link: "https://github.com/gavin-gong/ChatGavin",
+        link: "https://github.com/ChatGavin",
       },
     ],
+    // 页脚配置
+    footer: {
+      message: "Released under the Apache-2.0 License",
+      copyright: "Copyright © 2025-present Gavin Lin",
+    },
     outlineTitle: "目录",
     sidebar: {
       "/guide/": [
