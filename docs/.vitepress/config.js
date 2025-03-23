@@ -40,18 +40,22 @@ export default {
       copyright: "Copyright © 2025-present Gavin Lin",
     },
     outlineTitle: "目录",
-    sidebar: {
-      "/web/": [
-        {
-          text: "网站应用",
-          link: "/web/",
-        },
-      ],
-    },
     algolia: {
       appId: "W4Q74322DY",
       apiKey: "eedf20ae715174b06c4b63657804d053",
       indexName: "chatgavin",
+    },
+    sidebar: {
+      "/web/": [
+        {
+          text: "Github",
+          link: "/web/github",
+        },
+        {
+          text: "Vitepress",
+          link: "/web/vitepress",
+        },
+      ],
     },
   },
 };
