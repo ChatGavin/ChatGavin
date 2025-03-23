@@ -8,6 +8,14 @@ export default {
       {
         rel: "apple-touch-icon",
         href: "img/logo/vitepress.svg",
+        sizes: "180x180",
+      },
+    ],
+    [
+      "meta",
+      {
+        name: "algolia-site-verification",
+        content: "73ADFC284EB44532",
       },
     ],
   ],
