@@ -17,3 +17,4 @@
   - 创建应用
   - 获取 `algolia-site-verification`, 并部署到线上进行验证
   - 获取 `appId` 和 `apiKey`, 配置到项目中实现搜索功能
+  - 配置 `indexName`, 用于搜索
