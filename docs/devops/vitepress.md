@@ -21,7 +21,7 @@
 
 ### algolia 爬虫配置
 
-**algolia 默认一个星期更新, 通过 github actions 实现自动更新**
+**algolia 默认一周爬一次最低一天一次, 通过 github actions 实现定时更新**
 
 - 新建 `docs/.vitepress/algolia.json` 爬虫配置
 - 新建 `docs/.github/workflows/algolia.yml` 构建脚本
