@@ -8,31 +8,20 @@ on:
 permissions:
   contents: read
 
-concurrency:
-  group: "algolia"
-  cancel-in-progress: false
-
 jobs:
   algolia:
     runs-on: ubuntu-latest
-    name: Update Algolia Index
     steps:
       - name: Checkout
         uses: actions/checkout@v4
-        with:
-          fetch-depth: 0
 
       - name: Get the content of algolia.json as config
         id: algolia_config
         run: echo "config=$(cat docs/.vitepress/algolia.json | jq -r tostring)" >> $GITHUB_OUTPUT
 
-      - name: Run DocSearch Scraper
+      - name: Push indices to Algolia
+        uses: signcl/docsearch-scraper-action@master
         env:
           APPLICATION_ID: ${{ secrets.ALGOLIA_APP_ID }}
           API_KEY: ${{ secrets.ALGOLIA_API_KEY }}
-        run: |
-          docker run \
-            -e APPLICATION_ID=${APPLICATION_ID} \
-            -e API_KEY=${API_KEY} \
-            -e "CONFIG=${steps.algolia_config.outputs.config}" \
-            algolia/docsearch-scraper
+          CONFIG: ${{ steps.algolia_config.outputs.config }}
