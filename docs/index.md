@@ -11,7 +11,7 @@ hero:
   actions:
     - theme: brand
       text: 快速开始
-      link: /web/github
+      link: /devops/github
     - theme: alt
       text: Github
       link: https://github.com/ChatGavin

@@ -30,6 +30,7 @@ export default {
     nav: [
       { text: "首页", link: "/" },
       { text: "AI 技术", link: "/aiTech/mcp" },
+      { text: "前端工程化", link: "/feEngineering/versionControl" },
     ],
     socialLinks: [
       {
@@ -52,20 +53,26 @@ export default {
       },
     },
     sidebar: {
-      "/web/": [
+      "/devops/": [
         {
           text: "Github",
-          link: "/web/github",
+          link: "/devops/github",
         },
         {
           text: "Vitepress",
-          link: "/web/vitepress",
+          link: "/devops/vitepress",
         },
       ],
       "/aiTech/": [
         {
           text: "MCP",
           link: "/aiTech/mcp",
+        },
+      ],
+      "/feEngineering/": [
+        {
+          text: "版本管理",
+          link: "/feEngineering/versionControl",
         },
       ],
     },
