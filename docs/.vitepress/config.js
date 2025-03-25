@@ -29,7 +29,7 @@ export default {
     },
     nav: [
       { text: "首页", link: "/" },
-      { text: "AI 技术", link: "/ai-tech/mcp" },
+      { text: "AI 技术", link: "/aiTech/mcp" },
     ],
     socialLinks: [
       {
@@ -62,10 +62,10 @@ export default {
           link: "/web/vitepress",
         },
       ],
-      "/ai-tech/": [
+      "/aiTech/": [
         {
           text: "MCP",
-          link: "/ai-tech/mcp",
+          link: "/aiTech/mcp",
         },
       ],
     },
