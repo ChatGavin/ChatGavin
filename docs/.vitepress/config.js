@@ -49,8 +49,6 @@ export default {
         appId: "W4Q74322DY",
         apiKey: "eedf20ae715174b06c4b63657804d053",
         indexName: "gavin_chat_w4q74322dy_pages",
-        placeholder: "搜索文档",
-        buttonText: "搜索",
       },
     },
     sidebar: {
