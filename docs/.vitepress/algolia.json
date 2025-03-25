@@ -1,0 +1,30 @@
+{
+  "index_name": "gavin_chat_w4q74322dy_pages",
+  "start_urls": ["https://gavin.chat/"],
+  "rateLimit": 8,
+  "maxDepth": 10,
+  "selectors": {
+    "lvl0": {
+      "selector": ".VPContent h1",
+      "defaultValue": "Documentation"
+    },
+    "lvl1": ".VPDoc h1",
+    "lvl2": ".VPDoc h2",
+    "lvl3": ".VPDoc h3",
+    "lvl4": ".VPDoc h4",
+    "lvl5": ".VPDoc h5",
+    "content": ".VPDoc p, .VPDoc li",
+    "lang": {
+      "selector": "/html/@lang",
+      "type": "xpath",
+      "global": true
+    }
+  },
+  "custom_settings": {
+    "attributesForFaceting": ["lang", "tags"]
+  },
+  "selectors_exclude": [".table-of-contents", ".VPDocAside"],
+  "strip_chars": " .,;:#",
+  "scrape_start_urls": true,
+  "min_indexed_level": 0
+}
