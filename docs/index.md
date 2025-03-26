@@ -4,7 +4,7 @@ layout: home
 hero:
   name: "ChatGavin"
   text: "Chat with Gavin"
-  tagline: 我的笔记, 不是存储知识, 而是描摹一个真实而不断变化的自己
+  tagline: 我的笔记, 不是知识的复制, 而是描摹一个真实而不断变化的自己
   image:
     src: /img/logo/vitepress.svg
     alt: vitepress
