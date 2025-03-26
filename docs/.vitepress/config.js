@@ -29,8 +29,8 @@ export default {
     },
     nav: [
       { text: "首页", link: "/" },
-      { text: "AI 技术", link: "/aiTech/mcp" },
-      { text: "前端工程化", link: "/feEngineering/versionControl" },
+      { text: "工程化", link: "/engineering/version" },
+      { text: "AI 应用", link: "/ai/mcp" },
     ],
     socialLinks: [
       {
@@ -63,16 +63,16 @@ export default {
           link: "/devops/vitepress",
         },
       ],
-      "/aiTech/": [
+      "/ai/": [
         {
           text: "MCP",
-          link: "/aiTech/mcp",
+          link: "/ai/mcp",
         },
       ],
-      "/feEngineering/": [
+      "/engineering/": [
         {
           text: "版本管理",
-          link: "/feEngineering/versionControl",
+          link: "/engineering/version",
         },
       ],
     },
