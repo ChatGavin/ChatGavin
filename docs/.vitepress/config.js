@@ -31,6 +31,7 @@ export default {
       { text: "首页", link: "/" },
       { text: "工程化", link: "/engineering/version" },
       { text: "AI 应用", link: "/ai/mcp" },
+      { text: "雅思学习", link: "/ielts/about" },
     ],
     socialLinks: [
       {
@@ -73,6 +74,12 @@ export default {
         {
           text: "版本管理",
           link: "/engineering/version",
+        },
+      ],
+      "/ielts/": [
+        {
+          text: "考试介绍",
+          link: "/ielts/about",
         },
       ],
     },
