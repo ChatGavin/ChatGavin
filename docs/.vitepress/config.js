@@ -81,6 +81,10 @@ export default {
           text: "考试介绍",
           link: "/ielts/about",
         },
+        {
+          text: "听力介绍",
+          link: "/ielts/listening",
+        },
       ],
     },
   },
