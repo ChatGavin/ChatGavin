@@ -85,6 +85,10 @@ export default {
           text: "听力介绍",
           link: "/ielts/listening",
         },
+        {
+          text: "听力技巧",
+          link: "/ielts/listeningSkills",
+        },
       ],
     },
   },
