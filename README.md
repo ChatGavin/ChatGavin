@@ -1,10 +1,11 @@
-# 🐌 Gavin's Open Source Projects
+# Gavin's Open Source Projects
 
 整理个人开源项目集合，持续更新中 🚀
 
 | 开源项目 | 产品介绍 | 预览地址 |
 | :--- | :--- | :--- |
 | **Emojito** | React Emoji 组件库 | [https://emojito.gavin.chat](https://emojito.gavin.chat) |
+| **HydroStand** | 健康习惯桌面提醒应用 |  |
 
 ---
 
