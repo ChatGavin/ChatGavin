@@ -5,7 +5,7 @@
 | 开源项目 | 产品介绍 | 预览地址 |
 | :--- | :--- | :--- |
 | **Emojito** | React Emoji 组件库 | [https://emojito.gavin.chat](https://emojito.gavin.chat) |
-| **HydroStand** | 健康习惯桌面提醒应用 |  |
+| **HydroPal** | 健康陪伴的桌面应用 |  |
 
 ---
 
